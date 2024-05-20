@@ -40,27 +40,23 @@
         String nombre = (String) session.getAttribute("nombre");
         if (nombre != null) {
     %>
-           <a href="InicioSesion1.jsp" class="InicioSesion">
+                <a href="InicioSesion1.jsp" class="InicioSesion" >
                <img src="resources/IMAGENES/ImagenEncabezado/InicioSesion.png" alt=""/>
                 <div>Mi Cuenta</div>
             </a>
     <%
         } else {
     %>
-            <a href="InicioSesion1.jsp" class="InicioSesion">
+         <a href="InicioSesion1.jsp" class="InicioSesion" >
                 <img src="resources/IMAGENES/ImagenEncabezado/InicioSesion.png" alt=""/>
                 <div>Mi Cuenta</div>
             </a>
     <%
         }
     %>
-                    
-                    
-                    
+             
             </nav>
         </header>
-       
-
         <div id="carritoContainer"></div>
 
         <script>
@@ -70,5 +66,3 @@
         </script>
 
     </body>
-</html>
-
