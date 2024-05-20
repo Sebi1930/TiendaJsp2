@@ -10,7 +10,6 @@
     <head>
         <meta charset="UTF-8">
         <link href="resources/css/EncabezadoInicio/EncabezadoInicio.css" rel="stylesheet" type="text/css"/>
-    <img src="../../resources/IMAGENES/ImagenEncabezado/GAMER.jpg" alt=""/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
          <title>CENTER</title>
         
@@ -18,8 +17,8 @@
     </head>
     <body>
         <header class="Encabezado">
-            <a href="index.php" class="Logo">
-                
+            <a href="home.jsp" class="Logo">
+                 <img src="resources/IMAGENES/ImagenEncabezado/GAMER.jpg" alt=""/>
                 <h2 class="NombreTienda">CENTER</h2></a>
 
             <nav class="OpcionesEncabezado">         
