@@ -2,7 +2,6 @@
     Document   : CrearCuenta
     Created on : 20 may. 2024, 3:17:16 p. m.
     Author     : Andres
-
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -15,12 +14,13 @@
     <link href="resources/css/CrearCuenta/CrearCuenta.css" rel="stylesheet" type="text/css"/>
      <!-- Contenido del encabezado  -->
     <jsp:include page="vistas/PieDePagina_Encabezado/EncabezadoInicio.jsp" flush="true"/>
-    <?php include("CrearCuentaBD.php"); ?>
+    
+   
 </head>
 <body>
     <div class="formulario">
         <h1>CREAR CUENTA</h1>
-        <form action="CrearCuentaBD.jsp" method="post" >
+        <form action="CrearCuentaServlet" method="post">
             <div class="username">
                 <input type="text" name="nombre" required>
                 <label>Ingresar su Nombre</label>
