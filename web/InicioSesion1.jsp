@@ -30,8 +30,7 @@
         
             <input class="IniciarSesion" type="submit" value="Iniciar Sesión">
         </form>
-
-        <form method="post" action="CrearCuenta.php">
+        <form method="post" action="CrearCuenta.jsp">
             <input class="CrearCuenta" type="submit" value="Crear una cuenta">
         </form>
 
