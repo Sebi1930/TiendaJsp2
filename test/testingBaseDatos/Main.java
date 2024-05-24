@@ -1,4 +1,5 @@
-package main;
+package testingBaseDatos;
+
 
 import CRUD.CrearCuentaCRUD;
 
@@ -10,6 +11,6 @@ public class Main {
    CrearCuentaCRUD crud = new CrearCuentaCRUD();
         
         // Agregar persona
-         crud.agregarCuenta("ANDRES12ww3","dddd", "dadad@dfaffa", "123455151", "12323dada");
+         crud.agregarCuenta("pepe","dddd", "dadad@dfaffa", "123455151", "12323dada");
     }
 }
